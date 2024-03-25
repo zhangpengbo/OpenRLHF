@@ -5,7 +5,8 @@ from typing import List
 import ray
 import torch
 from ray.util.placement_group import placement_group
-
+import sys
+sys.path.append("..")
 from openrlhf.trainer.ray import (
     ActorModelRayActor,
     CriticModelRayActor,
