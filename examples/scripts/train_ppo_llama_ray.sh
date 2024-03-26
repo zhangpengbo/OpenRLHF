@@ -34,5 +34,4 @@ ray job submit --address="http://127.0.0.1:8265" \
     --actor_init_on_gpu \
     --adam_offload \
     --flash_attn \
-    --gradient_checkpointing \
-    --use_wandb {wandb_token}
+    --gradient_checkpointing 
